@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:weasley-clock.xcodeproj">
+      location = "self:/Users/daniel/Documents/projects/weasley-clock/WeasleyClock.xcodeproj">
    </FileRef>
 </Workspace>

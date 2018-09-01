@@ -1,11 +1,3 @@
-//
-//  weasley_clockTests.swift
-//  weasley-clockTests
-//
-//  Created by Daniel Amarante on 9/1/18.
-//  Copyright © 2018 Daniel Amarante. All rights reserved.
-//
-
 import XCTest
 @testable import weasley_clock
 
