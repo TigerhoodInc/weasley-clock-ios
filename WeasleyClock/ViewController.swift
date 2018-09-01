@@ -13,8 +13,11 @@ class ViewController: UIViewController {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        clockView.changeTime(hour: hour)
+        clockView.changeTime(hand: MyClockHand(), hour: hour)
         hour += 1
     }
 }
 
+struct MyClockHand: ClockHand {
+    var tag = 1
+}
