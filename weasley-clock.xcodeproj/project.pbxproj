@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BA20375BF477181235A7DCC /* Pods_weasley_clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82EEF39314B995B3644C743 /* Pods_weasley_clock.framework */; };
 		65B58C00213AC67E006E3824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B58BFF213AC67E006E3824 /* AppDelegate.swift */; };
 		65B58C02213AC67E006E3824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B58C01213AC67E006E3824 /* ViewController.swift */; };
 		65B58C05213AC67E006E3824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B58C03213AC67E006E3824 /* Main.storyboard */; };
@@ -14,10 +15,7 @@
 		65B58C0A213AC680006E3824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B58C08213AC680006E3824 /* LaunchScreen.storyboard */; };
 		65B58C15213AC680006E3824 /* weasley_clockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B58C14213AC680006E3824 /* weasley_clockTests.swift */; };
 		65B58C24213AD4FE006E3824 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B58C23213AD4FE006E3824 /* ClockView.swift */; };
-		7163BD6E9B0FE5A89097AB58 /* Pods_weasley_clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7E97C4C3F8815CC7668334 /* Pods_weasley_clock.framework */; };
-		D7A94A4A7E0A54AEFCF7714B /* Pods_WeasleyClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ED2F1DB4DEF5756C63F579 /* Pods_WeasleyClock.framework */; };
-		DE9C69CC6EF97A6350FACA58 /* Pods_WeasleyClockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AEFED6359AE180C344FAF2 /* Pods_WeasleyClockTests.framework */; };
-		FA6FAB6EF1A5E278D9C520D8 /* Pods_weasley_clockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC70F2ECB12E017A567588B /* Pods_weasley_clockTests.framework */; };
+		B8BAAADEE3E0CE0EA26B684A /* Pods_weasley_clockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317C1DBCCF8FD79F9AB67159 /* Pods_weasley_clockTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0346EC7472FFBEAD5890567D /* Pods-WeasleyClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeasleyClock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeasleyClock/Pods-WeasleyClock.debug.xcconfig"; sourceTree = "<group>"; };
-		3A6BF5A7FB77E5A8BDE72670 /* Pods-weasley-clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weasley-clock.release.xcconfig"; path = "Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock.release.xcconfig"; sourceTree = "<group>"; };
-		4DB5B3328CD27EC5659EDF5D /* Pods-WeasleyClockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeasleyClockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeasleyClockTests/Pods-WeasleyClockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B705659EA6DC859363516C9 /* Pods-weasley-clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weasley-clock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock.debug.xcconfig"; sourceTree = "<group>"; };
+		2F1E75DEEFFF8052B6311ECF /* Pods-weasley-clockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weasley-clockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weasley-clockTests/Pods-weasley-clockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		317C1DBCCF8FD79F9AB67159 /* Pods_weasley_clockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weasley_clockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C55025185B32909F66DB5D /* Pods-weasley-clockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weasley-clockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-weasley-clockTests/Pods-weasley-clockTests.release.xcconfig"; sourceTree = "<group>"; };
 		65B58BFC213AC67E006E3824 /* weasley-clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weasley-clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B58BFF213AC67E006E3824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65B58C01213AC67E006E3824 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,15 +44,8 @@
 		65B58C14213AC680006E3824 /* weasley_clockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weasley_clockTests.swift; sourceTree = "<group>"; };
 		65B58C16213AC680006E3824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B58C23213AD4FE006E3824 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
-		6FEC06CB67441E9CD8E45814 /* Pods-weasley-clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weasley-clock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock.debug.xcconfig"; sourceTree = "<group>"; };
-		7E6821F98E3AF58D1D6CE1B0 /* Pods-weasley-clockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weasley-clockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-weasley-clockTests/Pods-weasley-clockTests.release.xcconfig"; sourceTree = "<group>"; };
-		A2AEFED6359AE180C344FAF2 /* Pods_WeasleyClockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeasleyClockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B710D07535A9C1CA5E2CD1D9 /* Pods-WeasleyClockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeasleyClockTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeasleyClockTests/Pods-WeasleyClockTests.release.xcconfig"; sourceTree = "<group>"; };
-		C7D0BBCA5661F2130547CEC1 /* Pods-weasley-clockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weasley-clockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weasley-clockTests/Pods-weasley-clockTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CCC70F2ECB12E017A567588B /* Pods_weasley_clockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weasley_clockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC333CC68A67BE14113127C8 /* Pods-WeasleyClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeasleyClock.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeasleyClock/Pods-WeasleyClock.release.xcconfig"; sourceTree = "<group>"; };
-		E0ED2F1DB4DEF5756C63F579 /* Pods_WeasleyClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeasleyClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE7E97C4C3F8815CC7668334 /* Pods_weasley_clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weasley_clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82EEF39314B995B3644C743 /* Pods_weasley_clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weasley_clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE64A2B6A1C5A15F7C4A1A19 /* Pods-weasley-clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weasley-clock.release.xcconfig"; path = "Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A94A4A7E0A54AEFCF7714B /* Pods_WeasleyClock.framework in Frameworks */,
-				7163BD6E9B0FE5A89097AB58 /* Pods_weasley_clock.framework in Frameworks */,
+				4BA20375BF477181235A7DCC /* Pods_weasley_clock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,25 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9C69CC6EF97A6350FACA58 /* Pods_WeasleyClockTests.framework in Frameworks */,
-				FA6FAB6EF1A5E278D9C520D8 /* Pods_weasley_clockTests.framework in Frameworks */,
+				B8BAAADEE3E0CE0EA26B684A /* Pods_weasley_clockTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		59226C7DD555A842BC34A158 /* Pods */ = {
+		5C020FFFAC59651A8A853E3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0346EC7472FFBEAD5890567D /* Pods-WeasleyClock.debug.xcconfig */,
-				DC333CC68A67BE14113127C8 /* Pods-WeasleyClock.release.xcconfig */,
-				4DB5B3328CD27EC5659EDF5D /* Pods-WeasleyClockTests.debug.xcconfig */,
-				B710D07535A9C1CA5E2CD1D9 /* Pods-WeasleyClockTests.release.xcconfig */,
-				6FEC06CB67441E9CD8E45814 /* Pods-weasley-clock.debug.xcconfig */,
-				3A6BF5A7FB77E5A8BDE72670 /* Pods-weasley-clock.release.xcconfig */,
-				C7D0BBCA5661F2130547CEC1 /* Pods-weasley-clockTests.debug.xcconfig */,
-				7E6821F98E3AF58D1D6CE1B0 /* Pods-weasley-clockTests.release.xcconfig */,
+				E82EEF39314B995B3644C743 /* Pods_weasley_clock.framework */,
+				317C1DBCCF8FD79F9AB67159 /* Pods_weasley_clockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6145438B08FC8FE2EB810C95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B705659EA6DC859363516C9 /* Pods-weasley-clock.debug.xcconfig */,
+				EE64A2B6A1C5A15F7C4A1A19 /* Pods-weasley-clock.release.xcconfig */,
+				2F1E75DEEFFF8052B6311ECF /* Pods-weasley-clockTests.debug.xcconfig */,
+				48C55025185B32909F66DB5D /* Pods-weasley-clockTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -99,8 +94,8 @@
 				65B58BFE213AC67E006E3824 /* weasley-clock */,
 				65B58C13213AC680006E3824 /* WeasleyClockTests */,
 				65B58BFD213AC67E006E3824 /* Products */,
-				59226C7DD555A842BC34A158 /* Pods */,
-				E639D3B5838275891C75900E /* Frameworks */,
+				6145438B08FC8FE2EB810C95 /* Pods */,
+				5C020FFFAC59651A8A853E3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,17 +147,6 @@
 			path = ClockView;
 			sourceTree = "<group>";
 		};
-		E639D3B5838275891C75900E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E0ED2F1DB4DEF5756C63F579 /* Pods_WeasleyClock.framework */,
-				A2AEFED6359AE180C344FAF2 /* Pods_WeasleyClockTests.framework */,
-				FE7E97C4C3F8815CC7668334 /* Pods_weasley_clock.framework */,
-				CCC70F2ECB12E017A567588B /* Pods_weasley_clockTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,11 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B58C19213AC680006E3824 /* Build configuration list for PBXNativeTarget "weasley-clock" */;
 			buildPhases = (
-				B3701DF442935EB754A0F4D4 /* [CP] Check Pods Manifest.lock */,
+				0DC8EFD62AB2E0FF76734532 /* [CP] Check Pods Manifest.lock */,
 				65B58BF8213AC67E006E3824 /* Sources */,
 				65B58BF9213AC67E006E3824 /* Frameworks */,
 				65B58BFA213AC67E006E3824 /* Resources */,
-				94478D207AD53DE54375CF32 /* [CP] Embed Pods Frameworks */,
+				68778D44EA2AD858A12B5FA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,7 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B58C1C213AC680006E3824 /* Build configuration list for PBXNativeTarget "weasley-clockTests" */;
 			buildPhases = (
-				FC89B237A5F53AC1D6DA7232 /* [CP] Check Pods Manifest.lock */,
+				60E0096345126152389C5F2D /* [CP] Check Pods Manifest.lock */,
 				65B58C0C213AC680006E3824 /* Sources */,
 				65B58C0D213AC680006E3824 /* Frameworks */,
 				65B58C0E213AC680006E3824 /* Resources */,
@@ -263,31 +247,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		94478D207AD53DE54375CF32 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B3701DF442935EB754A0F4D4 /* [CP] Check Pods Manifest.lock */ = {
+		0DC8EFD62AB2E0FF76734532 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,7 +269,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FC89B237A5F53AC1D6DA7232 /* [CP] Check Pods Manifest.lock */ = {
+		60E0096345126152389C5F2D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,6 +289,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68778D44EA2AD858A12B5FA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -498,18 +482,19 @@
 		};
 		65B58C1A213AC680006E3824 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FEC06CB67441E9CD8E45814 /* Pods-weasley-clock.debug.xcconfig */;
+			baseConfigurationReference = 2B705659EA6DC859363516C9 /* Pods-weasley-clock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZX7GUMJ35C;
-				INFOPLIST_FILE = "$(SRCROOT)/WeasleyClock/SupportingFiles/Info.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/weasley-clock/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tigerhood.weasley-clock";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goat.weasley-clock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -517,18 +502,19 @@
 		};
 		65B58C1B213AC680006E3824 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A6BF5A7FB77E5A8BDE72670 /* Pods-weasley-clock.release.xcconfig */;
+			baseConfigurationReference = EE64A2B6A1C5A15F7C4A1A19 /* Pods-weasley-clock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZX7GUMJ35C;
-				INFOPLIST_FILE = "$(SRCROOT)/WeasleyClock/SupportingFiles/Info.plist";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/weasley-clock/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tigerhood.weasley-clock";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goat.weasley-clock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -536,7 +522,7 @@
 		};
 		65B58C1D213AC680006E3824 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7D0BBCA5661F2130547CEC1 /* Pods-weasley-clockTests.debug.xcconfig */;
+			baseConfigurationReference = 2F1E75DEEFFF8052B6311ECF /* Pods-weasley-clockTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -558,7 +544,7 @@
 		};
 		65B58C1E213AC680006E3824 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E6821F98E3AF58D1D6CE1B0 /* Pods-weasley-clockTests.release.xcconfig */;
+			baseConfigurationReference = 48C55025185B32909F66DB5D /* Pods-weasley-clockTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
