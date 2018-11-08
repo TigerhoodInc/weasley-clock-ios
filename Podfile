@@ -5,6 +5,7 @@ target 'weasley-clock' do
   use_frameworks!
 
   pod 'Firebase/Auth'
+  pod 'SwiftyBeaver'
 
   target 'weasley-clockTests' do
     inherit! :search_paths

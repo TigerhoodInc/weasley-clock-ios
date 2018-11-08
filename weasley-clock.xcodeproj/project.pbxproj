@@ -15,6 +15,7 @@
 		65B58C0A213AC680006E3824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B58C08213AC680006E3824 /* LaunchScreen.storyboard */; };
 		65B58C15213AC680006E3824 /* weasley_clockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B58C14213AC680006E3824 /* weasley_clockTests.swift */; };
 		65B58C24213AD4FE006E3824 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B58C23213AD4FE006E3824 /* ClockView.swift */; };
+		968DDD2921950275006A311B /* GoogleService-Info-development.plist in Resources */ = {isa = PBXBuildFile; fileRef = 968DDD2721950232006A311B /* GoogleService-Info-development.plist */; };
 		B8BAAADEE3E0CE0EA26B684A /* Pods_weasley_clockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317C1DBCCF8FD79F9AB67159 /* Pods_weasley_clockTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		65B58C14213AC680006E3824 /* weasley_clockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weasley_clockTests.swift; sourceTree = "<group>"; };
 		65B58C16213AC680006E3824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B58C23213AD4FE006E3824 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		968DDD2721950232006A311B /* GoogleService-Info-development.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-development.plist"; sourceTree = "<group>"; };
 		E82EEF39314B995B3644C743 /* Pods_weasley_clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weasley_clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE64A2B6A1C5A15F7C4A1A19 /* Pods-weasley-clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weasley-clock.release.xcconfig"; path = "Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,11 +113,11 @@
 		65B58BFE213AC67E006E3824 /* weasley-clock */ = {
 			isa = PBXGroup;
 			children = (
-				65B58C22213AD4F6006E3824 /* ClockView */,
-				65B58C21213AD4C5006E3824 /* SupportingFiles */,
 				65B58BFF213AC67E006E3824 /* AppDelegate.swift */,
-				65B58C01213AC67E006E3824 /* ViewController.swift */,
+				65B58C22213AD4F6006E3824 /* ClockView */,
 				65B58C03213AC67E006E3824 /* Main.storyboard */,
+				65B58C21213AD4C5006E3824 /* SupportingFiles */,
+				65B58C01213AC67E006E3824 /* ViewController.swift */,
 			);
 			path = "weasley-clock";
 			sourceTree = "<group>";
@@ -132,6 +134,7 @@
 		65B58C21213AD4C5006E3824 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				968DDD2621950232006A311B /* Firebase */,
 				65B58C0B213AC680006E3824 /* Info.plist */,
 				65B58C08213AC680006E3824 /* LaunchScreen.storyboard */,
 				65B58C06213AC680006E3824 /* Assets.xcassets */,
@@ -145,6 +148,14 @@
 				65B58C23213AD4FE006E3824 /* ClockView.swift */,
 			);
 			path = ClockView;
+			sourceTree = "<group>";
+		};
+		968DDD2621950232006A311B /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				968DDD2721950232006A311B /* GoogleService-Info-development.plist */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B58C0A213AC680006E3824 /* LaunchScreen.storyboard in Resources */,
+				968DDD2921950275006A311B /* GoogleService-Info-development.plist in Resources */,
 				65B58C07213AC680006E3824 /* Assets.xcassets in Resources */,
 				65B58C05213AC67E006E3824 /* Main.storyboard in Resources */,
 			);
@@ -302,6 +314,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -309,6 +322,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -492,7 +506,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.goat.weasley-clock";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goat.weasley-clock-development";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -512,7 +526,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.goat.weasley-clock";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.goat.weasley-clock-development";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
