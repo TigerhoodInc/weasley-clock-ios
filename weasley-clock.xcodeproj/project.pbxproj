@@ -16,6 +16,7 @@
 		65B58C15213AC680006E3824 /* weasley_clockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B58C14213AC680006E3824 /* weasley_clockTests.swift */; };
 		65B58C24213AD4FE006E3824 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B58C23213AD4FE006E3824 /* ClockView.swift */; };
 		968DDD2921950275006A311B /* GoogleService-Info-development.plist in Resources */ = {isa = PBXBuildFile; fileRef = 968DDD2721950232006A311B /* GoogleService-Info-development.plist */; };
+		968DDD2D21950A07006A311B /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968DDD2C21950A07006A311B /* ApiRouter.swift */; };
 		B8BAAADEE3E0CE0EA26B684A /* Pods_weasley_clockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317C1DBCCF8FD79F9AB67159 /* Pods_weasley_clockTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		65B58C16213AC680006E3824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B58C23213AD4FE006E3824 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 		968DDD2721950232006A311B /* GoogleService-Info-development.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-development.plist"; sourceTree = "<group>"; };
+		968DDD2C21950A07006A311B /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
 		E82EEF39314B995B3644C743 /* Pods_weasley_clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weasley_clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE64A2B6A1C5A15F7C4A1A19 /* Pods-weasley-clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weasley-clock.release.xcconfig"; path = "Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 		65B58BFE213AC67E006E3824 /* weasley-clock */ = {
 			isa = PBXGroup;
 			children = (
+				968DDD2A219509EA006A311B /* Data */,
 				65B58BFF213AC67E006E3824 /* AppDelegate.swift */,
 				65B58C22213AD4F6006E3824 /* ClockView */,
 				65B58C03213AC67E006E3824 /* Main.storyboard */,
@@ -156,6 +159,22 @@
 				968DDD2721950232006A311B /* GoogleService-Info-development.plist */,
 			);
 			path = Firebase;
+			sourceTree = "<group>";
+		};
+		968DDD2A219509EA006A311B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				968DDD2B219509FB006A311B /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		968DDD2B219509FB006A311B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				968DDD2C21950A07006A311B /* ApiRouter.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,16 +331,22 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-weasley-clock/Pods-weasley-clock-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65B58C02213AC67E006E3824 /* ViewController.swift in Sources */,
+				968DDD2D21950A07006A311B /* ApiRouter.swift in Sources */,
 				65B58C24213AD4FE006E3824 /* ClockView.swift in Sources */,
 				65B58C00213AC67E006E3824 /* AppDelegate.swift in Sources */,
 			);
